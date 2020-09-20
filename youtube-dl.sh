@@ -1,1 +1,1 @@
-youtube-dl --sleep-interval 10 -f best -o "$MEDIA_PATH/$folder/%(uploader)s.%(title)s.%(ext)s" -a $1
+youtube-dl --sleep-interval 10 -f best -o "%(uploader)s.%(title)s.%(ext)s" -a $1

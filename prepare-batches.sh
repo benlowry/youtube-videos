@@ -18,6 +18,8 @@ for folder in concerts workouts; do
             else 
                 echo skip existing $file
             fi
+            rm $file
         done
+        rm -rf $entity
     done
 done
